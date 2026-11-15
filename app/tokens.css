@@ -1,0 +1,92 @@
+:root {
+  color-scheme: light;
+
+  --paper: #EFF1EE;
+  --paper-deep: #E6E9E4;
+  --panel: #FFFFFF;
+  --field: #FFFFFF;
+  --ink: #17201D;
+  --ink-soft: #33403B;
+  --muted: #66716C;
+  --rule: #E1E5E0;
+  --rule-strong: #CBD2CC;
+
+  --signal: #14624F;
+  --signal-deep: #0E4A3C;
+  --signal-wash: #E7F2ED;
+  --signal-rule: #BFE0D5;
+
+  --onair: #C43A2F;
+  --onair-deep: #9C2A21;
+  --onair-wash: #FDECE8;
+  --onair-rule: #F0BDB3;
+  --onair-rule-soft: #F5C4B8;
+
+  --amber: #A9761B;
+  --amber-deep: #7C5610;
+  --amber-wash: #FDF3E2;
+  --amber-rule: #EEDDB9;
+
+  --on-ink: #F3F5F2;
+  --on-ink-law: #BFC8C3;
+  --on-ink-dim: #85918B;
+  --slab: #17201D;
+  --on-accent: #FFFFFF;
+
+  --font-sans: var(--font-sans-loaded), "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-serif-loaded), Georgia, "Times New Roman", serif;
+
+  --r-xs: 2px;
+  --r-sm: 5px;
+  --r-md: 6px;
+  --r-base: 7px;
+  --r-lg: 8px;
+  --r-xl: 10px;
+  --r-2xl: 12px;
+  --r-pill: 999px;
+
+  --sidebar-w: 232px;
+
+  /* translucent overlays on --slab; identical in both schemes */
+  --veil: rgba(255, 255, 255, 0.08);
+  --veil-active: rgba(255, 255, 255, 0.11);
+  --veil-line: rgba(255, 255, 255, 0.1);
+  --veil-line-strong: rgba(255, 255, 255, 0.16);
+  --scrim: rgba(16, 26, 22, 0.42);
+  --shadow-dialog: 0 20px 48px rgba(16, 26, 22, 0.24);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --paper: #0F120F;
+    --paper-deep: #171B16;
+    --panel: #191E19;
+    --field: #141813;
+    --ink: #EAEEE9;
+    --ink-soft: #C7CEC8;
+    --muted: #96A09A;
+    --rule: #2A322B;
+    --rule-strong: #3C463D;
+
+    --signal: #4FB79A;
+    --signal-deep: #6FD0B3;
+    --signal-wash: #143026;
+    --signal-rule: #2A5546;
+
+    --onair: #E0645A;
+    --onair-deep: #F0928A;
+    --onair-wash: #2E1714;
+    --onair-rule: #5A2C26;
+    --onair-rule-soft: #4A241F;
+
+    --amber: #D3A03D;
+    --amber-deep: #E5BB6A;
+    --amber-wash: #2A2113;
+    --amber-rule: #55411F;
+
+    --slab: #0B0E0B;
+    --on-accent: #0B0E0B;
+  }
+}
